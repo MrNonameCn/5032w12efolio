@@ -11,7 +11,7 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
-  base: isCI ? '5032w12efolio' : '/',
+  base: isCI ? '/5032w12efolio/' : '/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
